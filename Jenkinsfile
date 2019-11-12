@@ -31,12 +31,12 @@ node {
       ],
       [
       $class          : 'UsernamePasswordMultiBinding',
-      credentialsId   : 'my_pcf_user',
+      credentialsId   : 'abdel_pcf_user',
       passwordVariable: 'PCF_PASSWORD',
       usernameVariable: 'PCF_USERNAME'
       ],[
       $class          : 'UsernamePasswordMultiBinding',
-      credentialsId   : 'my_art_user',
+      credentialsId   : 'abdel_art_user',
       passwordVariable: 'ART_PASSWORD',
       usernameVariable: 'ART_USERNAME'
       ]]){
